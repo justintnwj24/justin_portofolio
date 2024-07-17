@@ -14,7 +14,7 @@ export default function App() {
             <button className="navbar-toggler" type="button" onClick={handleToggleOffcanvas}>
                 <span className="navbar-toggler-icon" style={{ filter: 'invert(1)' }}></span>
             </button>
-            <div className={`offcanvas offcanvas-start ${showOffcanvas ? 'show' : ''}`} tabIndex={-1} id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style={{ boxShadow: showOffcanvas ? '0px 0px 10px rgba(0,0, 0, 5)' : 'none' }}>
+            <div className={`offcanvas offcanvas-start ${showOffcanvas ? 'show' : ''}`} tabIndex={-1} id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style={{ width: '45%', boxShadow: showOffcanvas ? '0px 0px 10px rgba(0,0, 0, 5)' : 'none' }}>
                 <div className="offcanvas-header" style={{ backgroundColor: 'rgb(0, 114, 255)', padding: '0px 24px', height: '64px' }}>
                     <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Justin Tanuwijaya</h5>
                     <button type="button" className="btn-close" style={{ filter: 'invert(1)' }} onClick={handleToggleOffcanvas} aria-label="Close"></button>

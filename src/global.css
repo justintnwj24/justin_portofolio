@@ -2,6 +2,11 @@
 .portofolio {
     color: white;
     font-family: 'Futura', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.offcanvas {
+    width: 30%;
 }
 
 .imageLogo {
